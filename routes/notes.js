@@ -4,17 +4,17 @@ const fb = require('express').Router();
 const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
 
-// GET Route for retrieving all the feedback
+// GET Route for retrieving data
 fb.get('/', (req, res) => {
-  console.info(`${req.method} request received for feedback`);
+  console.info(`${req.method} request received to update notes`);
 
-  readFromFile('./db/feedback.json').then((data) => res.json(JSON.parse(data)));
+  readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 // POST Route for submitting feedback
 fb.post('/', (req, res) => {
   // Log that a POST request was received
-  console.info(`${req.method} request received to submit feedback`);
+  console.info(`${req.method} request received to update notes`);
 
   // Destructuring assignment for the items in req.body
   const { email, feedbackType, feedback } = req.body;
@@ -29,7 +29,7 @@ fb.post('/', (req, res) => {
       feedback_id: uuid(),
     };
 
-    readAndAppend(newFeedback, './db/feedback.json');
+    readAndAppend(newFeedback, './db/db.json');
 
     const response = {
       status: 'success',
