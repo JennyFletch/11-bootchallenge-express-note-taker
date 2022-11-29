@@ -4,38 +4,23 @@
         "text": "Test text"
     },
     {
-        "title": "NEW Test Title",
-        "text": "NEW Test text",
-        "note_id": "dd90"
+        "title": "Where does this go?",
+        "text": "And why is this even a question so late in the game. Ugh.",
+        "note_id": "9afa"
     },
     {
-        "title": "Does this work?",
-        "text": "Kind of doubt it.",
-        "note_id": "e8e5"
+        "title": "Make sure we're good",
+        "text": "Should still work.",
+        "note_id": "867f"
     },
     {
-        "title": "This is crazy",
-        "text": "Where did my save button go? Oh, there it is.",
-        "note_id": "2268"
+        "title": "Error message free",
+        "text": "And deleting like a champ.",
+        "note_id": "6243"
     },
     {
-        "title": "Trying a new note",
-        "text": "And here's the save button!",
-        "note_id": "93b5"
-    },
-    {
-        "title": "Nope.",
-        "text": "That just deleted my note.",
-        "note_id": "f57e"
-    },
-    {
-        "title": "How did it crash?",
-        "text": "It's a big ol mystery.",
-        "note_id": "f1f6"
-    },
-    {
-        "title": "Hallelujah",
-        "text": "This is pretty relieving, I have to say.",
-        "note_id": "6370"
+        "title": "Still works",
+        "text": "And this is good to go.",
+        "note_id": "b9df"
     }
 ]
