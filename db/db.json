@@ -1,9 +1,5 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
         "title": "Make sure we're good",
         "text": "Should still work.",
         "note_id": "867f"
