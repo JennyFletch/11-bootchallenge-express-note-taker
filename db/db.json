@@ -4,11 +4,6 @@
         "text": "Test text"
     },
     {
-        "title": "Where does this go?",
-        "text": "And why is this even a question so late in the game. Ugh.",
-        "note_id": "9afa"
-    },
-    {
         "title": "Make sure we're good",
         "text": "Should still work.",
         "note_id": "867f"
@@ -22,5 +17,10 @@
         "title": "Still works",
         "text": "And this is good to go.",
         "note_id": "b9df"
+    },
+    {
+        "title": "This is a new note",
+        "text": "I can type stuff in here.",
+        "note_id": "6a14"
     }
 ]
