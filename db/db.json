@@ -22,5 +22,10 @@
         "title": "This is a new note",
         "text": "I can type stuff in here.",
         "note_id": "6a14"
+    },
+    {
+        "title": "Works fine",
+        "text": "seriously.",
+        "note_id": "c578"
     }
 ]
